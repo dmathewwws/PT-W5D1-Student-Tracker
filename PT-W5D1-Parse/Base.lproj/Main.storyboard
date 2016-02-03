@@ -37,7 +37,13 @@
                             <outlet property="delegate" destination="Boi-QE-jcr" id="Gcr-RL-qbt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="98n-SN-79M"/>
+                    <navigationItem key="navigationItem" id="98n-SN-79M">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="1xi-Zr-42N">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="Boi-QE-jcr" id="6sX-jU-xQ1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NzL-7L-zfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
